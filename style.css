@@ -1,0 +1,168 @@
+body {
+  background-color: blanchedalmond;
+}
+
+h1, h2 {
+  font-family: 'Comfortaa', cursive;
+  color: #a9a9d8;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 40px;
+}
+p {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+  color: #b696b1;
+}
+
+div {
+  border: 3px;
+  border-color: rgb(255, 255, 194);
+  border-style: solid;
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+.logo {
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+.bouton {
+  text-decoration: none;
+  background-color: rgb(255, 118, 177);
+  border-radius: 15px;
+  padding: 15px;
+  font-family: 'Comfortaa', cursive;
+  opacity: 0.5;
+  font-size: 20px;
+}
+
+.bouton:hover {
+  background-color: pink;
+}
+
+ ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.un {
+  font-size: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.un:hover {
+  background-color: rgb(255, 255, 199);
+}
+
+.presentation {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.pres2 {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.titre {
+  text-align: center;
+}
+
+.pres3 {
+  text-align: right;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.autretitre {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.madiv {
+  display: flex;
+  border: none;
+}
+
+
+.mycapy {
+border: none;
+text-align: center;
+}
+
+.cap {
+  width: 450px;
+  height: 450px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+
+}
+
+.animaux {
+  text-align: center;
+}
+
+
+#cat {
+  max-width: 300px;
+  margin: 0 auto;
+}
+#cauda {
+  width: 72px;
+  height: 79px;
+  animation: cauda 6s linear infinite;
+  transform-origin: right bottom;
+  transform-box: fill-box;
+}
+
+@keyframes cauda {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+#cat {
+  border: none;
+}
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
